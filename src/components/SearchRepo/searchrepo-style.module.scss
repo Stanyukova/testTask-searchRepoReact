@@ -1,0 +1,106 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 375px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #1fbbff;
+  padding: 76px;
+  border-radius: 8px;
+  color: white;
+}
+.searchImage {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.profile {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 300px;
+  box-shadow: 5px -5px 0px 1px #d7d7dd;
+  margin: 20px 20px;
+  color: black;
+}
+form input {
+  width: 250px;
+  outline: none;
+  font-weight: 400;
+  background-color: #fff;
+  border-color: #fff;
+  height: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 6px;
+  padding: 13px 22px 15px;
+  &:hover {
+    border-color: #1ba8e5;
+  }
+}
+form {
+  background-color: #ffffff82;
+  width: 100%;
+  padding: 40px;
+  border-radius: 8px;
+}
+.searchButton {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #00aefa;
+  color: #00aefa;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+
+  &:hover {
+    color: white;
+    box-shadow: 0 0 40px 40px #1fbbff inset;
+    transition: box-shadow 0.6s ease-in-out, color 0.6s ease-in-out;
+  }
+
+  &:active {
+    background-color: #1fbbff;
+    box-shadow: 0 0 10px #1ad2f3, 0 0 10px #29c3fb;
+    transition: 0.4s all;
+  }
+}
+.sortButton {
+  margin-top: 10px;
+  background-color: #1fbbff;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+
+  &:hover {
+    box-shadow: 0px 0px 11px 1px #d7d7dd;
+    transition: 0.3s ease-in-out;
+  }
+}
+.pagination{
+    background-color: #e4fbff;
+    color:#18a2db;
+    border-radius:8px;
+    border:1px solid #e4fbff;
+    margin-left: 5px;
+    cursor:pointer;
+    &:hover {
+        box-shadow: 0px 0px 11px 1px #d7d7dd;
+        transition: 0.3s ease-in-out;
+      }
+
+}
+.users {
+    font-size: 20px;
+}
